@@ -1,0 +1,23 @@
+.shoes {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            padding: 10px;
+            margin: 5px;
+            background-color: #f3f3f3;
+        }
+
+        nav a {
+            color: #01394f;
+            padding: 20px;
+            margin-left: 5px;
+            font-size: 1em;
+            text-decoration: none;
+        }
+        @media only screen and (max-width: 600px) {
+            .container-fluid {
+                display: flex;
+                flex-direction: row;
+            }
+        }
