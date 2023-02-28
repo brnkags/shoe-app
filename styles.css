@@ -8,14 +8,34 @@
             background-color: #f3f3f3;
         }
 
+        #item1 {
+            grid-area: item1;
+            padding: 10px;
+            margin: 10px;
+            background-color: red;
+        }
+
         nav a {
-            color: #01394f;
-            padding: 20px;
-            margin-left: 5px;
+            color: red;
             font-size: 1em;
+            margin-left: 50px;
             text-decoration: none;
         }
+         .grid-container {
+            display: grid;
+            grid-template-areas:
+         'item1 item1 item1 item1 item1 item1 item1'
+
+        ;
+        }
         @media only screen and (max-width: 600px) {
+               .grid-container {
+                display: grid;
+                grid-template-areas:
+         'item1 item1 item1 item1 item1 item1 item1'
+
+            ;
+            }
             .container-fluid {
                 display: flex;
                 flex-direction: row;

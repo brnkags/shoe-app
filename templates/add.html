@@ -4,12 +4,12 @@
     <form method="post">
         <div class="mb-3 mt-3">
 
-            <label for="image" class="form-label">Shoe image:</label>
-            <input type="url" name ="image" class="form-control" placeholder="Link image URL" id="image" value="{{ request.form['image'] }}">
+            <label for="name" class="form-label">Shoe name:</label>
+            <input type="text" name ="name" class="form-control" placeholder="Enter shoe name" id="name" value="{{ request.form['name'] }}">
         </div>
         <div class="mb-3">
-            <label for="name" class="form-label">Shoe name:</label>
-            <input type="text" name="name" class="form-control" id="name" placeholder="Enter shoe name" value="{{ request.form['name'] }}">
+            <label for="image" class="form-label">Shoe Image:</label>
+            <input type="url" name="image" class="form-control" id="image" placeholder="Link image URL" value="{{ request.form['image'] }}">
         </div>
         <div class="mb-3">
             <label for="number" class="form-check-label">Price:</label>
